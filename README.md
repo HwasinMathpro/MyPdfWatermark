@@ -1,4 +1,4 @@
-# AspPdfWatermark
+# MyPdfWatermark
 
 이 프로젝트는 Classic ASP 환경에서 C# DLL(COM)로 PDF 파일에 한글 워터마크를 백그라운드로 삽입하는 기능을 제공합니다.
 
