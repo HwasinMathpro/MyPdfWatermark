@@ -38,7 +38,7 @@ namespace MyPdfWatermark
                     PdfWriter writer = new PdfWriter(outputPdf);
                     PdfDocument pdfDoc = new PdfDocument(reader, writer);
 
-                    PdfFont font = PdfFontFactory.CreateFont("C:/Windows/Fonts/malgun.ttf", PdfEncodings.IDENTITY_H, true);
+                    PdfFont font = PdfFontFactory.CreateFont("C:/Windows/Fonts/UnDotum.ttf", PdfEncodings.IDENTITY_H, true);
 
                     for (int i = 1; i <= pdfDoc.GetNumberOfPages(); i++)
                     {
