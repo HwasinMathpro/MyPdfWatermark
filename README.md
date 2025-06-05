@@ -21,3 +21,6 @@
 ```asp
 Set obj = Server.CreateObject("MyPdfWatermark.WatermarkProcessor")
 result = obj.AddWatermark("C:\input.pdf", "C:\output.pdf", "워터마크에 들어갈 TEXT")
+
+## 라이선스
+이 프로젝트는 [GNU AGPL v3](LICENSE)를 따릅니다.
